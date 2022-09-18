@@ -1,0 +1,43 @@
+{
+  "name": {
+    "zh-cn": "Sentry1",
+    "en": "Sentry1"
+  },
+  "description": {
+    "zh-cn": "Sentry1 库文件。",
+    "en": "Sentry1 libraries."
+  },
+  "author": "AITosee",
+  "email": "support@aitosee.com",
+  "license": "MIT",
+  "isTest": true,
+  "isBoard": false,
+  "id": "Sentry1",
+  "platform": [
+    "win",
+    "web"
+  ],
+  "version": "1.0.1",
+  "asset": {
+    "arduinoC": {
+      "dir": "arduinoC/",
+      "version": "v1.3.3",
+      "board": [
+        "arduino",
+        "arduinonano",
+        "mega2560",
+        "microbit",
+        "esp32"
+      ],
+      "main": "main.ts"
+    },
+    "microPython": {
+      "dir": "microPython/",
+      "version": "v1.2.1",
+      "board": [
+        "esp32"
+      ],
+      "main": "main.ts"
+    }
+  }
+}

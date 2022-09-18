@@ -1,0 +1,359 @@
+{
+    "SENTRY": {
+        "menu": [
+            [
+                "0x60",
+                "0x60"
+            ],
+            [
+                "0x61",
+                "0x61"
+            ],
+            [
+                "0x62",
+                "0x62"
+            ],
+            [
+                "0x63",
+                "0x63"
+            ]
+        ]
+    },
+    "MODE": {
+        "menu": [
+            [
+                "i2c",
+                "i2c"
+            ],
+            [
+                "uart1",
+                "uart1"
+            ],
+            [
+                "uart2",
+                "uart2"
+            ]
+        ]
+    },
+    "VISION": {
+        "menu": [
+            [
+                "VisionColor",
+                "sentry1_vision_e.kVisionColor"
+            ],
+            [
+                "VisionBlob",
+                "sentry1_vision_e.kVisionBlob"
+            ],
+            [
+                "VisionBall",
+                "sentry1_vision_e.kVisionBall"
+            ],
+            [
+                "VisionLine",
+                "sentry1_vision_e.kVisionLine"
+            ],
+            [
+                "VisionCard",
+                "sentry1_vision_e.kVisionCard"
+            ],
+            [
+                "VisionBody",
+                "sentry1_vision_e.kVisionBody"
+            ]
+        ],
+        "default_GetValue_VISION_TYPE": "sentry1_vision_e.kVisionBlob"
+    },
+    "VISION_STA": {
+        "menu": [
+            [
+                "OPEN",
+                "ON"
+            ],
+            [
+                "CLOSE",
+                "OFF"
+            ]
+        ]
+    },
+    "COORDINATE": {
+        "menu": [
+            [
+                "AbsoluteCoordinate",
+                "0"
+            ],
+            [
+                "PercentageCoordinate",
+                "1"
+            ]
+        ]
+    },
+    "OBJ_INFO": {
+        "menu": [
+            [
+                "XValue",
+                "sentry_obj_info_e.kXValue"
+            ],
+            [
+                "YValue",
+                "sentry_obj_info_e.kYValue"
+            ],
+            [
+                "WidthValue",
+                "sentry_obj_info_e.kWidthValue"
+            ],
+            [
+                "HeightValue",
+                "sentry_obj_info_e.kHeightValue"
+            ],
+            [
+                "Label",
+                "sentry_obj_info_e.kLabel"
+            ]
+        ]
+    },
+    "OBJ_LINE_INFO": {
+        "menu": [
+            [
+                "XValue",
+                "sentry_obj_info_e.kXValue"
+            ],
+            [
+                "YValue",
+                "sentry_obj_info_e.kYValue"
+            ],
+            [
+                "WidthValue",
+                "sentry_obj_info_e.kWidthValue"
+            ],
+            [
+                "HeightValue",
+                "sentry_obj_info_e.kHeightValue"
+            ],
+            [
+                "Label",
+                "sentry_obj_info_e.kLabel"
+            ]
+        ]
+    },
+    "OBJ_RGB_INFO": {
+        "menu": [
+            [
+                "RValue",
+                "sentry_obj_info_e.kRValue"
+            ],
+            [
+                "GValue",
+                "sentry_obj_info_e.kGValue"
+            ],
+            [
+                "BValue",
+                "sentry_obj_info_e.kBValue"
+            ],
+            [
+                "Label",
+                "sentry_obj_info_e.kLabel"
+            ]
+        ]
+    },
+    "ZOOM": {
+        "menu": [
+            [
+                "ZoomDefault",
+                "sentry_camera_zoom_e.kZoomDefault"
+            ],
+            [
+                "Zoom1",
+                "sentry_camera_zoom_e.kZoom1"
+            ],
+            [
+                "Zoom2",
+                "sentry_camera_zoom_e.kZoom2"
+            ],
+            [
+                "Zoom3",
+                "sentry_camera_zoom_e.kZoom3"
+            ],
+            [
+                "Zoom4",
+                "sentry_camera_zoom_e.kZoom4"
+            ],
+            [
+                "Zoom5",
+                "sentry_camera_zoom_e.kZoom5"
+            ]
+        ]
+    },
+    "FPS": {
+        "menu": [
+            [
+                "FPSNormal",
+                "sentry_camera_fps_e.kFPSNormal"
+            ],
+            [
+                "FPSHigh",
+                "sentry_camera_fps_e.kFPSHigh"
+            ]
+        ]
+    },
+    "AWB": {
+        "menu": [
+            [
+                "AutoWhiteBalance",
+                "sentry_camera_white_balance_e.kAutoWhiteBalance"
+            ],
+            [
+                "LockWhiteBalance",
+                "sentry_camera_white_balance_e.kLockWhiteBalance"
+            ],
+            [
+                "WhiteLight",
+                "sentry_camera_white_balance_e.kWhiteLight"
+            ],
+            [
+                "YellowLight",
+                "sentry_camera_white_balance_e.kYellowLight"
+            ],
+            [
+                "WhiteBalanceCalibrating",
+                "sentry_camera_white_balance_e.kWhiteBalanceCalibrating"
+            ]
+        ]
+    },
+    "ROTATE": {
+        "menu": [
+            [
+                "0",
+                "0"
+            ],
+            [
+                "180",
+                "1"
+            ]
+        ]
+    },
+    "BUAD": {
+        "menu": [
+            [
+                "9600",
+                "sentry_baudrate_e.kBaud9600"
+            ],
+            [
+                "19200",
+                "sentry_baudrate_e.kBaud19200"
+            ],
+            [
+                "38400",
+                "sentry_baudrate_e.kBaud38400"
+            ],
+            [
+                "57600",
+                "sentry_baudrate_e.kBaud57600"
+            ],
+            [
+                "115200",
+                "sentry_baudrate_e.kBaud115200"
+            ],
+            [
+                "921600",
+                "sentry_baudrate_e.kBaud921600"
+            ],
+            [
+                "1152000",
+                "sentry_baudrate_e.kBaud1152000"
+            ],
+            [
+                "2000000",
+                "sentry_baudrate_e.kBaud2000000"
+            ]
+        ]
+    },
+    "LED_COLOR": {
+        "menu": [
+            [
+                "Close",
+                "sentry_led_color_e.kLedClose"
+            ],
+            [
+                "Red",
+                "sentry_led_color_e.kLedRed"
+            ],
+            [
+                "Green",
+                "sentry_led_color_e.kLedGreen"
+            ],
+            [
+                "Yellow",
+                "sentry_led_color_e.kLedYellow"
+            ],
+            [
+                "Blue",
+                "sentry_led_color_e.kLedBlue"
+            ],
+            [
+                "Purple",
+                "sentry_led_color_e.kLedPurple"
+            ],
+            [
+                "Cyan",
+                "sentry_led_color_e.kLedCyan"
+            ],
+            [
+                "White",
+                "sentry_led_color_e.kLedWhite"
+            ]
+        ]
+    },
+    "COLOR_LABLE": {
+        "menu": [
+            [
+                "Black",
+                "color_label_e.kColorBlack"
+            ],
+            [
+                "White",
+                "color_label_e.kColorWhite"
+            ],
+            [
+                "Red",
+                "color_label_e.kColorRed"
+            ],
+            [
+                "Green",
+                "color_label_e.kColorGreen"
+            ],
+            [
+                "Blue",
+                "color_label_e.kColorBlue"
+            ],
+            [
+                "Yellow",
+                "color_label_e.kColorYellow"
+            ]
+        ]
+    },
+    "CARD_LABLE": {
+        "menu": [
+            [
+                "FORWARD",
+                "Sentry1::kCardForward"
+            ],
+            [
+                "LEFT",
+                "Sentry1::kCardLeft"
+            ],
+            [
+                "RIGHT",
+                "Sentry1::kCardRight"
+            ],
+            [
+                "TURN_AROUND",
+                "Sentry1::kCardTurnAround"
+            ],
+            [
+                "PARK",
+                "Sentry1::kCardPark"
+            ]
+        ]
+    }
+}
