@@ -251,5 +251,17 @@
                 "Sentry1::kCardPark"
             ]
         ]
+    },
+    "BALL_LABLE": {
+        "menu": [
+            [
+                "TABLETENNIS",
+                "Sentry1::kBallTableTennis"
+            ],
+            [
+                "TENNIS",
+                "Sentry1::kBallTennis"
+            ]
+        ]
     }
 }

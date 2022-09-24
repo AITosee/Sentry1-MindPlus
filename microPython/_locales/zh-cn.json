@@ -65,14 +65,8 @@
     "Sentry1.AWB.WhiteLight|menu": "白光/阴天模式",
     "Sentry1.AWB.YellowLight|menu": "黄光/晴天模式",
     "Sentry1.AWB.WhiteBalanceCalibrating|menu": "白平衡校准",
-    "Sentry1.CameraSetRotate|block":"Sentry1 设置摄像头旋转[ROTATE]度",
-    "Sentry1.CameraGetRotate|block":"Sentry1 摄像头旋转角度度",
-    "Sentry1.UartSetBaudrate|block":"Sentry1 设置串口波特率为[BUAD]",
     "Sentry1.VisionSetDefault|block":"Sentry1 恢复[VISION_TYPE]算法默认参数",
     "Sentry1.VisionGetStatus|block":"Sentry1 获取[VISION_TYPE]算法的状态",
-    "Sentry1.rows|block":"Sentry1 图像高度",
-    "Sentry1.cols|block":"Sentry1 图像宽度",
-    "Sentry1.GetQrCodeValue|block":"Sentry1 二维码识别结果",
     "Sentry1.GetColorLable|block":"Sentry1 颜色识别测算检测结果[NUM]为[COLOR_LABLE]",
     "Sentry1.GetColorBlob|block":"Sentry1 色块检测算法检测结果[NUM]为[COLOR_LABLE]",
     "Sentry1.COLOR_LABLE.Black|menu": "黑色",
@@ -86,5 +80,8 @@
     "Sentry1.CARD_LABLE.LEFT|menu": "左",
     "Sentry1.CARD_LABLE.RIGHT|menu": "右",
     "Sentry1.CARD_LABLE.TURN_AROUND|menu": "掉头",
-    "Sentry1.CARD_LABLE.PARK|menu": "暂停"
+    "Sentry1.CARD_LABLE.PARK|menu": "暂停",
+    "Sentry1.GetBallLable|block":"Sentry1 球体检测结果[NUM]为[BALL_LABLE]",
+    "Sentry1.BALL_LABLE.TABLETENNIS|menu": "乒乓球",
+    "Sentry1.BALL_LABLE.TENNIS|menu": "网球"
 }

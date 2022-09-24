@@ -167,4 +167,13 @@ namespace Sentry1 {
         let obj = parameter.CARD_LABLE.code;
         Generator.addCode([`sentry1.GetValue(sentry_vision_e.kVisionCard,sentry_obj_info_e.kLabel,${num})==${obj}`, Generator.ORDER_UNARY_POSTFIX]);
     }
+    //% block="Sentry1 ball detected [NUM] [BALL_LABLE]" blockType="boolean"
+    //% NUM.shadow="number" NUM.defl=1
+    //% BALL_LABLE.shadow="dropdown" BALL_LABLE.options="BALL_LABLE"    
+    export function GetBallLable(parameter: any) {
+
+        let num = parameter.NUM.code;
+        let obj = parameter.BALL_LABLE.code;
+        Generator.addCode([`sentry1.GetValue(sentry_vision_e.kVisionBall,sentry_obj_info_e.kLabel,${num})==${obj}`, Generator.ORDER_UNARY_POSTFIX]);
+    }
 }

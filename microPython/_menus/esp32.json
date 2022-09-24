@@ -340,19 +340,31 @@
             ],
             [
                 "LEFT",
-                "Sentry1::kCardLeft"
+                "sentry1_card_label_e.kCardLeft"
             ],
             [
                 "RIGHT",
-                "Sentry1::kCardRight"
+                "sentry1_card_label_e.kCardRight"
             ],
             [
                 "TURN_AROUND",
-                "Sentry1::kCardTurnAround"
+                "sentry1_card_label_e.kCardTurnAround"
             ],
             [
                 "PARK",
-                "Sentry1::kCardPark"
+                "sentry1_card_label_e.kCardPark"
+            ]
+        ]
+    },
+    "BALL_LABLE": {
+        "menu": [
+            [
+                "TABLETENNIS",
+                "sentry1_ball_label_e.kBallTableTennis"
+            ],
+            [
+                "TENNIS",
+                "sentry1_ball_label_e.kBallTennis"
             ]
         ]
     }
