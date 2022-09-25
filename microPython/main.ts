@@ -86,7 +86,7 @@ namespace Sentry1 {
         let color1 = parameter.LED_COLOR1.code;
         let color2 = parameter.LED_COLOR2.code;
 
-        Generator.addCode(`sentry1..LedSetColor(${color1},${color2});`);
+        Generator.addCode(`sentry1.LedSetColor(${color1},${color2});`);
     }
 
     //% block="Sentry1 Set camera [AWB]" blockType="command"
@@ -94,7 +94,7 @@ namespace Sentry1 {
     //% AWB.shadow="dropdown" AWB.options="AWB" 
     export function CameraSetAwb(parameter: any) {
         let awb = parameter.AWB.code;
-        Generator.addCode(`sentry1..CameraSetAwb(${awb})`);
+        Generator.addCode(`sentry1.CameraSetAwb(${awb})`);
     }
 
     //% block="Sentry1 get vision [VISION_TYPE] status" blockType="reporter"
