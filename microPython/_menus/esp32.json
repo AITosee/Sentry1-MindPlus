@@ -336,7 +336,7 @@
         "menu": [
             [
                 "FORWARD",
-                "Sentry1::kCardForward"
+                "sentry1_card_label_e.kCardForward"
             ],
             [
                 "LEFT",

@@ -1150,7 +1150,7 @@ class SentryBase:
                         hw_config_reg_value)
         return err
 
-    def LedSetColor(self, detected_color, undetected_color, level):
+    def LedSetColor(self, detected_color, undetected_color, level=1):
 
         err, led_level = self.__stream.Get(kRegLedLevel)
         if err:
