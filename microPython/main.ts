@@ -60,7 +60,7 @@ namespace Sentry1 {
         let w = parameter.WIDTH.code;
         let h = parameter.HIGHT.code;
 
-        Generator.addCode(`sentry1.SetParam(sentry_vision_e.kVisionColor,[${x}, ${y}, ${w}, ${h}, 0],${num})`);
+        Generator.addCode(`sentry1.SetParam(sentry1_vision_e.kVisionColor,[${x}, ${y}, ${w}, ${h}, 0],${num})`);
     }
 
     //% block="Sentry1 set color block detection parameter [NUM] minimum width [WIDTH] minimum height [HIGHT] to detect color [COLOR_LABLE]" blockType="command"
@@ -75,7 +75,7 @@ namespace Sentry1 {
         let h = parameter.HIGHT.code;
         let l = parameter.COLOR_LABLE.code;
 
-        Generator.addCode(`sentry1.SetParam(sentry_vision_e.kVisionBlob,[0, 0, ${w}, ${h}, ${l}],${num})`);
+        Generator.addCode(`sentry1.SetParam(sentry1_vision_e.kVisionBlob,[0, 0, ${w}, ${h}, ${l}],${num})`);
     }
 
     //% block="Sentry1 Set the LED algorithm to detect a color of [LED_COLOR1] and not to detect a color of [LED_COLOR2]" blockType="command"
@@ -125,7 +125,7 @@ namespace Sentry1 {
 
         let num = parameter.NUM.code;
         let obj = parameter.OBJ_RGB_INFO.code;
-        Generator.addCode([`sentry1.GetValue(sentry_vision_e.kVisionColor,${obj},${num})`, Generator.ORDER_UNARY_POSTFIX]);
+        Generator.addCode([`sentry1.GetValue(sentry1_vision_e.kVisionColor,${obj},${num})`, Generator.ORDER_UNARY_POSTFIX]);
     }
 
     //% block="Sentry1 get Line [NUM] [OBJ_LINE_INFO]" blockType="reporter"
@@ -135,7 +135,7 @@ namespace Sentry1 {
 
         let num = parameter.NUM.code;
         let obj = parameter.OBJ_LINE_INFO.code;
-        Generator.addCode([`sentry1.GetValue(sentry_vision_e.kVisionLine,${obj},${num})`, Generator.ORDER_UNARY_POSTFIX]);
+        Generator.addCode([`sentry1.GetValue(sentry1_vision_e.kVisionLine,${obj},${num})`, Generator.ORDER_UNARY_POSTFIX]);
     }
 
     //% block="Sentry1 Color detected [NUM] [COLOR_LABLE]" blockType="boolean"
@@ -145,7 +145,7 @@ namespace Sentry1 {
 
         let num = parameter.NUM.code;
         let obj = parameter.COLOR_LABLE.code;
-        Generator.addCode([`sentry1.GetValue(sentry_vision_e.kVisionColor,sentry_obj_info_e.kLabel,${num})==${obj}`, Generator.ORDER_UNARY_POSTFIX]);
+        Generator.addCode([`sentry1.GetValue(sentry1_vision_e.kVisionColor,sentry_obj_info_e.kLabel,${num})==${obj}`, Generator.ORDER_UNARY_POSTFIX]);
     }
 
     //% block="Sentry1 Blob detected [NUM] [COLOR_LABLE]" blockType="boolean"
@@ -155,7 +155,7 @@ namespace Sentry1 {
 
         let num = parameter.NUM.code;
         let obj = parameter.COLOR_LABLE.code;
-        Generator.addCode([`sentry1.GetValue(sentry_vision_e.kVisionBlob,sentry_obj_info_e.kLabel,${num})==${obj}`, Generator.ORDER_UNARY_POSTFIX]);
+        Generator.addCode([`sentry1.GetValue(sentry1_vision_e.kVisionBlob,sentry_obj_info_e.kLabel,${num})==${obj}`, Generator.ORDER_UNARY_POSTFIX]);
     }
 
     //% block="Sentry1 Card detected [NUM] [CARD_LABLE]" blockType="boolean" 
@@ -165,7 +165,7 @@ namespace Sentry1 {
 
         let num = parameter.NUM.code;
         let obj = parameter.CARD_LABLE.code;
-        Generator.addCode([`sentry1.GetValue(sentry_vision_e.kVisionCard,sentry_obj_info_e.kLabel,${num})==${obj}`, Generator.ORDER_UNARY_POSTFIX]);
+        Generator.addCode([`sentry1.GetValue(sentry1_vision_e.kVisionCard,sentry_obj_info_e.kLabel,${num})==${obj}`, Generator.ORDER_UNARY_POSTFIX]);
     }
     //% block="Sentry1 ball detected [NUM] [BALL_LABLE]" blockType="boolean"
     //% NUM.shadow="number" NUM.defl=1
@@ -174,6 +174,6 @@ namespace Sentry1 {
 
         let num = parameter.NUM.code;
         let obj = parameter.BALL_LABLE.code;
-        Generator.addCode([`sentry1.GetValue(sentry_vision_e.kVisionBall,sentry_obj_info_e.kLabel,${num})==${obj}`, Generator.ORDER_UNARY_POSTFIX]);
+        Generator.addCode([`sentry1.GetValue(sentry1_vision_e.kVisionBall,sentry_obj_info_e.kLabel,${num})==${obj}`, Generator.ORDER_UNARY_POSTFIX]);
     }
 }
