@@ -1,6 +1,6 @@
 # Sentry1-MindPlus
 
-欢迎使用 [Sentry1-MindPlus](https://github.com/Uniquemf/Sentry1-MindPlus) for Mind+ 库，可点击[查看文档](https://tosee.readthedocs.io/zh/latest/Sentry/MindPlus/index.html)。
+欢迎使用 [Sentry1-MindPlus](https://github.com/AITosee/Sentry1-MindPlus) for Mind+ 库，可点击[查看文档](https://tosee.readthedocs.io/zh/latest/Sentry/MindPlus/index.html)。
 
 ## 用作扩展
 
