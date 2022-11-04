@@ -1,0 +1,271 @@
+{
+    "SENTRY": {
+        "menu": [
+            [
+                "0x60",
+                "0x60"
+            ],
+            [
+                "0x61",
+                "0x61"
+            ],
+            [
+                "0x62",
+                "0x62"
+            ],
+            [
+                "0x63",
+                "0x63"
+            ]
+        ]
+    },
+    "MODE": {
+        "menu": [
+            [
+                "I2C",
+                "Wire"
+            ],
+            [
+                "Serial0",
+                "Serial"
+            ],
+            [
+                "Serial1",
+                "Serial1"
+            ]
+        ]
+    },
+    "VISION": {
+        "menu": [
+            [
+                "VisionColor",
+                "Sentry1::kVisionColor"
+            ],
+            [
+                "VisionBlob",
+                "Sentry1::kVisionBlob"
+            ],
+            [
+                "VisionBall",
+                "Sentry1::kVisionBall"
+            ],
+            [
+                "VisionLine",
+                "Sentry1::kVisionLine"
+            ],
+            [
+                "VisionCard",
+                "Sentry1::kVisionCard"
+            ],
+            [
+                "VisionBody",
+                "Sentry1::kVisionBody"
+            ]
+        ],
+        "default_GetValue_VISION_TYPE": "Sentry1::kVisionBlob"
+    },
+    "VISION_STA": {
+        "menu": [
+            [
+                "OPEN",
+                "ON"
+            ],
+            [
+                "CLOSE",
+                "OFF"
+            ]
+        ]
+    },
+    "OBJ_INFO": {
+        "menu": [
+            [
+                "XValue",
+                "kXValue"
+            ],
+            [
+                "YValue",
+                "kYValue"
+            ],
+            [
+                "WidthValue",
+                "kWidthValue"
+            ],
+            [
+                "HeightValue",
+                "kHeightValue"
+            ],
+            [
+                "Label",
+                "kLabel"
+            ]
+        ]
+    },
+    "OBJ_LINE_INFO": {
+        "menu": [
+            [
+                "XValue",
+                "kXValue"
+            ],
+            [
+                "YValue",
+                "kYValue"
+            ],
+            [
+                "WidthValue",
+                "kWidthValue"
+            ],
+            [
+                "HeightValue",
+                "kHeightValue"
+            ],
+            [
+                "Label",
+                "kLabel"
+            ]
+        ]
+    },
+    "OBJ_RGB_INFO": {
+        "menu": [
+            [
+                "RValue",
+                "kRValue"
+            ],
+            [
+                "GValue",
+                "kGValue"
+            ],
+            [
+                "BValue",
+                "kBValue"
+            ],
+            [
+                "Label",
+                "kLabel"
+            ]
+        ]
+    },
+    "AWB": {
+        "menu": [
+            [
+                "AutoWhiteBalance",
+                "kAutoWhiteBalance"
+            ],
+            [
+                "LockWhiteBalance",
+                "kLockWhiteBalance"
+            ],
+            [
+                "WhiteLight",
+                "kWhiteLight"
+            ],
+            [
+                "YellowLight",
+                "kYellowLight"
+            ],
+            [
+                "WhiteBalanceCalibrating",
+                "kWhiteBalanceCalibrating"
+            ]
+        ]
+    },
+    "LED_COLOR": {
+        "menu": [
+            [
+                "Close",
+                "kLedClose"
+            ],
+            [
+                "Red",
+                "kLedRed"
+            ],
+            [
+                "Green",
+                "kLedGreen"
+            ],
+            [
+                "Yellow",
+                "kLedYellow"
+            ],
+            [
+                "Blue",
+                "kLedBlue"
+            ],
+            [
+                "Purple",
+                "kLedPurple"
+            ],
+            [
+                "Cyan",
+                "kLedCyan"
+            ],
+            [
+                "White",
+                "kLedWhite"
+            ]
+        ]
+    },
+    "COLOR_LABLE": {
+        "menu": [
+            [
+                "Black",
+                "Sentry1::kColorBlack"
+            ],
+            [
+                "White",
+                "Sentry1::kColorWhite"
+            ],
+            [
+                "Red",
+                "Sentry1::kColorRed"
+            ],
+            [
+                "Green",
+                "Sentry1::kColorGreen"
+            ],
+            [
+                "Blue",
+                "Sentry1::kColorBlue"
+            ],
+            [
+                "Yellow",
+                "Sentry1::kColorYellow"
+            ]
+        ]
+    },
+    "CARD_LABLE": {
+        "menu": [
+            [
+                "FORWARD",
+                "Sentry1::kCardForward"
+            ],
+            [
+                "LEFT",
+                "Sentry1::kCardLeft"
+            ],
+            [
+                "RIGHT",
+                "Sentry1::kCardRight"
+            ],
+            [
+                "TURN_AROUND",
+                "Sentry1::kCardTurnAround"
+            ],
+            [
+                "PARK",
+                "Sentry1::kCardPark"
+            ]
+        ]
+    },
+    "BALL_LABLE": {
+        "menu": [
+            [
+                "TABLETENNIS",
+                "Sentry1::kBallTableTennis"
+            ],
+            [
+                "TENNIS",
+                "Sentry1::kBallTennis"
+            ]
+        ]
+    }
+}
