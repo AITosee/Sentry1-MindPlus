@@ -126,6 +126,12 @@ namespace Sentry1 {
         Generator.addCode([`sentry1.GetValue(${vision_type},${obj},(int)${num})`, Generator.ORDER_UNARY_POSTFIX]);
     }
 
+    //% block="Sentry1 get Qr value" blockType="reporter"
+    //% SENTRY.shadow="dropdown" SENTRY.options="SENTRY"  
+    export function GetQrCodeValue(parameter: any) {
+
+        Generator.addCode([`String(sentry1.GetQrCodeValue())`, Generator.ORDER_UNARY_POSTFIX]);
+    }
 
     //% block="Sentry1 get Color [NUM] [OBJ_RGB_INFO]" blockType="reporter"
     //% NUM.shadow="number" NUM.defl=1

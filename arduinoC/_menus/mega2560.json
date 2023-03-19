@@ -80,6 +80,14 @@
             [
                 "VisionBody",
                 "Sentry1::kVisionBody"
+            ],
+            [
+                "VisionQrCode",
+                "Sentry1::kVisionQrCode"
+            ],
+            [
+                "VisionMotionDetect",
+                "Sentry1::kVisionMotionDetect"
             ]
         ],
         "default_GetValue_VISION_TYPE": "Sentry1::kVisionBlob"

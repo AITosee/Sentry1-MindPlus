@@ -1,4 +1,4 @@
-__version__ = "Sentry2 v1.2.1"
+__version__ = "Sentry2 v1.2.2"
 __author__ = "weiyanfengv@gmail.com"
 __license__ = "http://unlicense.org"
 
@@ -177,7 +177,9 @@ class sentry1_vision_e:
     kVisionCard = 6
     kVisionBody = 7
     kVisionMaxType = 8
-
+    kVisionQrCode = 9
+    kVisionMotionDetect = 11
+    
 # Sentry1 card label
 class sentry1_card_label_e:
     kCardForward = 1
@@ -211,7 +213,8 @@ class sentry2_vision_e:
     kVisionQrCode = 9
     kVisionObjTrack = 10
     kVisionMotionDetect = 11
-    kVisionMaxType = 12
+    kVisionCustom = 12
+    kVisionMaxType = 13
 
 # Sentry card label
 class sentry2_card_label_e:

@@ -60,6 +60,14 @@
             [
                 "VisionBody",
                 "sentry1_vision_e.kVisionBody"
+            ],
+            [
+                "VisionQrCode",
+                "sentry1_vision_e.kVisionQrCode"
+            ],
+            [
+                "VisionMotionDetect",
+                "sentry1_vision_e.kVisionMotionDetect"
             ]
         ],
         "default_GetValue_VISION_TYPE": "sentry1_vision_e.kVisionBlob"
